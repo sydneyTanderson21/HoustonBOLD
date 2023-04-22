@@ -1,0 +1,14 @@
+{
+    "candidates": [
+        {
+            "formatted_address": "3663 Washington Ave Ste 150, Houston, TX 77007, United States",
+            "name": "Blue Tile Coffee",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJ5aOh8eDBQIYRQHc6Htw24Og",
+            "rating": 4.9
+        }
+    ],
+    "status": "OK"
+}

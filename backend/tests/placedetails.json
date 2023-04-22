@@ -1,0 +1,201 @@
+{
+    "html_attributions": [],
+    "result": {
+        "formatted_address": "3663 Washington Ave Ste 150, Houston, TX 77007, USA",
+        "formatted_phone_number": "(713) 449-9875",
+        "geometry": {
+            "location": {
+                "lat": 29.7681629,
+                "lng": -95.3966786
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 29.7695961802915,
+                    "lng": -95.39533666970851
+                },
+                "southwest": {
+                    "lat": 29.7668982197085,
+                    "lng": -95.39803463029152
+                }
+            }
+        },
+        "name": "Blue Tile Coffee",
+        "opening_hours": {
+            "open_now": false,
+            "periods": [
+                {
+                    "close": {
+                        "day": 0,
+                        "time": "1900"
+                    },
+                    "open": {
+                        "day": 0,
+                        "time": "0600"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 1,
+                        "time": "1900"
+                    },
+                    "open": {
+                        "day": 1,
+                        "time": "0600"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 2,
+                        "time": "1900"
+                    },
+                    "open": {
+                        "day": 2,
+                        "time": "0600"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 3,
+                        "time": "1900"
+                    },
+                    "open": {
+                        "day": 3,
+                        "time": "0600"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 4,
+                        "time": "1900"
+                    },
+                    "open": {
+                        "day": 4,
+                        "time": "0600"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 5,
+                        "time": "1900"
+                    },
+                    "open": {
+                        "day": 5,
+                        "time": "0600"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 6,
+                        "time": "1900"
+                    },
+                    "open": {
+                        "day": 6,
+                        "time": "0600"
+                    }
+                }
+            ],
+            "weekday_text": [
+                "Monday: 6:00 AM – 7:00 PM",
+                "Tuesday: 6:00 AM – 7:00 PM",
+                "Wednesday: 6:00 AM – 7:00 PM",
+                "Thursday: 6:00 AM – 7:00 PM",
+                "Friday: 6:00 AM – 7:00 PM",
+                "Saturday: 6:00 AM – 7:00 PM",
+                "Sunday: 6:00 AM – 7:00 PM"
+            ]
+        },
+        "photos": [
+            {
+                "height": 3664,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/116145851450132056505\">CHARLIE 2.0 EVERINGTON</a>"
+                ],
+                "photo_reference": "AUjq9jmDhDnSeoFwxtczvaaHjwXKAnKzvWzb5q-_Wl39FEz5SmIOMN_0SUI4z8KiZyLzOajFSSVZnyAbuzIbNt1jSZWf6kmIk4AhxBwDINOUdUbJNEcx4_dM3X94vrhnoLC-195r-7Sz_mWe458J66t8Jm6lZsJ85cFruiKlDvq4oMsTLuo",
+                "width": 6304
+            },
+            {
+                "height": 4032,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/117392191060979779817\">Courtney Campbell</a>"
+                ],
+                "photo_reference": "AUjq9jktjGw2_J53qosHNbsXc7URZrEMICg913rk5Mc8rqjR3O5AUXEvH7dUkggcoegqdg9AQJZNG5pHJrnRDSQC8Sx5IyJu68OtCZ9qBHJkKgYlgHXXsc9_3fhY_2cBzYoR2KGBlJdft-lA34obag5c-2RdCxzixjgQkDMfv30YknRxb7uA",
+                "width": 3024
+            },
+            {
+                "height": 12000,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/116145851450132056505\">CHARLIE 2.0 EVERINGTON</a>"
+                ],
+                "photo_reference": "AUjq9jmaBbWcBVZwhskTXs-zvoJnYaeve_Y5WAIT2KhQSO9DfB-pT9BMLX9YBEc1w582i3ziU4nOuG0mmLk2lD3CULasml8A5VGaikqZFSoTWdfYU3yvsd1YurGi4fC8AyGlsJ17Bd5tjcIWvh82IbhV_QXF_N51sdvHbFQK8lROLKNhJGo",
+                "width": 9000
+            },
+            {
+                "height": 4032,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/109193731389600711665\">Jessica Hughes</a>"
+                ],
+                "photo_reference": "AUjq9jldzKNjZzDAFaDp9UnpK9LOPArADQZCSIk3ep-MhH3cEygsa8wyXi8bD0TPuG5AW3d36-h2az-mLdojYS-AAGHCg9DwXlfIazTbWcj0B4qdeaROYI_FXyn_r96hMFS68BU2frcH3qy4ZehV6b16ESRJw2Lr3-SR_Eo64YG4U6stzwnT",
+                "width": 3024
+            },
+            {
+                "height": 8064,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/109193731389600711665\">Jessica Hughes</a>"
+                ],
+                "photo_reference": "AUjq9jnW-3tv2nHgEvHn5KcsHCcmwGOa3kc_H9U75PvkOmVn3Odh7nYrcwZmX6z68NmWfKsdNT25DJ7yN6sq562nFBOvJ-MpoSdKIr52TZG354raOLt7FHVJLAwD1_JN7arwzd1MimTdxiUhhYO0AscO0sfWnTmjbUbFg2MQJyDIrevivR35",
+                "width": 6048
+            },
+            {
+                "height": 2560,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/111854041212764337199\">Brian Carpani</a>"
+                ],
+                "photo_reference": "AUjq9jkM4sXE6jBeVL_y7yxCa_4yC7TEKJrODBmKQzfeZJl2_B4A4XlzKDXTC41JxOEhsbX8g8CgaE6FDnDVayX1h0EAtlghstyfqJuUa7LowKMc7h1L6VcG-shOeCSKenixCxu3hmK1aWF6cbky7zy7-8DRcML2lXNshAKcQ3XPFV_WMrr6",
+                "width": 1920
+            },
+            {
+                "height": 4000,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/114466452646095837513\">CC Adaptive</a>"
+                ],
+                "photo_reference": "AUjq9jkNCQAI_F5T_xQ3DZUB5Ut0ERm1qP6HbP4KFDZ_cj1Zu0PT6uP0XsvgS6OaUxQlQ9DsGq903r67tl_xdubAfLND1xAURLfEr23ZYFJDhAXjbOWhyuvwsGj43WjgaDtYEAxeMti7naqO9KEYNe4nIBzN9NqYqAZh-wHUkOsTnuZNNFI5",
+                "width": 3000
+            },
+            {
+                "height": 4000,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/114466452646095837513\">CC Adaptive</a>"
+                ],
+                "photo_reference": "AUjq9jn0I9UiepWat_7X0LUI0U57M7793dHdzrW9wgjqlKuJo9b_H2R4Q8Z91hJTBdsyg_pdMwn2h4VnxjKFPK2nxco4v7zqtNlXkMGBEu0b7fljMJx2123U3_SWOo07Kvk3Rsu-ws_Te-RU-mUd0QNil0yKxIdYq0tL--Wk6mN5SdZUgLEy",
+                "width": 3000
+            },
+            {
+                "height": 2268,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/100326132167931614838\">Anthony (Beer Chronicle) Gorrity</a>"
+                ],
+                "photo_reference": "AUjq9jlmk2r5ofrHhtfsDYxBw_r2quwJf-czt94DYllJEjuTXJlhBYJ6ttmq_H77Liz0gcyHaUvF0gYV7Vfu4gu1UHZiIvhkedgeBQ4bwZ4voGdI-0MKcYvwUgzzoSkzr_ape6kAE_koMLCXMGf9VoKfEsPQ8xTK5GFGVhtjKge1P2_gACPk",
+                "width": 4032
+            },
+            {
+                "height": 4032,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/106948049481016021764\">Tania Pena</a>"
+                ],
+                "photo_reference": "AUjq9jk1KWDZtTdPJvbYzOZeQLSsd0VfFxW7vdrd4zs9b0_wwmpyhWSU1ZLKUX1aJ_sfdtCdnzIXAcemF_tV0iiVVgp4WS_nvitnGcR4-hm3MTWmJxWvIctvoYlGV6ubHMeBP0R4by_lMdB2S_C7aKuEg2KhWvCrMXEfiAzLd_-VkZo0RAQK",
+                "width": 3024
+            }
+        ],
+        "place_id": "ChIJ5aOh8eDBQIYRQHc6Htw24Og",
+        "rating": 4.9,
+        "types": [
+            "cafe",
+            "food",
+            "store",
+            "point_of_interest",
+            "establishment"
+        ],
+        "url": "https://maps.google.com/?cid=16780472530610321216"
+    },
+    "status": "OK"
+}

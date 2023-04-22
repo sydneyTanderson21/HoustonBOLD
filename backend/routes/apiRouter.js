@@ -2,9 +2,13 @@
 // (get, post, put, delete) and a corresponding controller function that handles the request.
 
 // example
-// const express = require('express');
-// const router = express.Router();
+const express = require('express');
+const router = express.Router();
+//const google = require('./api/google.js')
 // const eventController = require('./controllers/event');
+
+// Define the OAuth2 redirect URL endpoint
+//router.get('/oauth2callback', google.fetchEvents(req.query)); // Your code to handle the OAuth2 callback goes here
 
 // router.get('/events', eventController.getEvents);
 // router.get('/events/:id', eventController.getEventById);
