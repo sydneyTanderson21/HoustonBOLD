@@ -4,12 +4,12 @@
 import mongoose from "mongoose";
 const { Schema } = mongoose;
 
-const geolocation = new mongoose.Schema({
+const geolocation = new Schema({
   lat: Number,
   lng: Number
 });
 
-const placeSchema = Schema({
+const placeSchema = new Schema({
   name: {
     type: String,
     required: true,
@@ -24,11 +24,14 @@ const placeSchema = Schema({
   geolocation: geolocation,
   rating: Number,
   url: String,
+  neighborhood: [String],
   types: [String],
   photo: [String], //array of photo.photo_references (pick top 3)
   comments: String
 });
 
+//making place_id mandatory to be unique
+placeSchema.index({ place_id: 1 }, { unique: true });
 //export Model
 const Place = mongoose.model("Place", placeSchema);
 export default Place;

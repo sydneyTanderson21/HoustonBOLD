@@ -3,6 +3,7 @@
 import {Config} from './config.js';
 import express from 'express';
 import mongoose from 'mongoose';
+// import router from './routes/apiRouter.js';
 import insertManyPlaces from './api/index.js';
 
 //const apiRouter = require('./routes/apiRouter');
@@ -13,29 +14,24 @@ const PORT = process.env.PORT || 3000; //OR port 5000
 const mongoUrl = `mongodb+srv://${Config.mongoUser}:${Config.mongoPass}@${Config.mongoHost}/myprojectdb?retryWrites=true&w=majority`
 
 app.use(express.json());
-// app.use('/api', apiRouter);
+//app.use('/api', router);
 
 mongodb_atlas_connect().then(() => console.log('Connected to MongoDB Atlas'))
 .catch((err) => console.log('Error connecting to MongoDB Atlas', err));
-
-
-async function mongodb_atlas_connect(){
-  await mongoose.connect(mongoUrl, {
-    bufferCommands: false,
-    connectTimeoutMS: 30000, // optional
-    socketTimeoutMS: 30000, // optional
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
-  console.log(mongoose.connection.name);
-
-  // insertManyPlaces();
-
-} 
-
-
 
 app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`);
 });
 
+
+async function mongodb_atlas_connect(){
+  await mongoose.connect(mongoUrl, {
+    bufferCommands: false,
+    connectTimeoutMS: 30000,
+    socketTimeoutMS: 30000,
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  })
+  console.log(mongoose.connection.name);
+  //insertManyPlaces();
+} 
