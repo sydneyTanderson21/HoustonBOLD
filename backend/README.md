@@ -14,7 +14,7 @@
 │   ├── models/
 │   │   └── event.js                # Event data model
 │   ├── services/
-│   │   └── event.js                # Service for fetching and processing event data
+│   │   └── event.js                # Service for fetching and processing event data, contains the service layer for fetching and processing event data
 │   ├── utils/
 │   │   └── kafka.js                # Kafka utility functions
 │   ├── kafka.js                    # Kafka event stream processing logic

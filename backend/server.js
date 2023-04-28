@@ -3,10 +3,10 @@
 import {Config} from './config.js';
 import express from 'express';
 import mongoose from 'mongoose';
-// import router from './routes/apiRouter.js';
-import insertManyPlaces from './api/index.js';
-
-//const apiRouter = require('./routes/apiRouter');
+import indexRouter from './routes/index.js';
+import placesRouter from './routes/places.js';
+import categoriesRouter from './routes/categories.js';
+// import insertManyPlaces from './api/index.js';
 
 const app = express();
 const PORT = process.env.PORT || 3000; //OR port 5000
@@ -14,9 +14,13 @@ const PORT = process.env.PORT || 3000; //OR port 5000
 const mongoUrl = `mongodb+srv://${Config.mongoUser}:${Config.mongoPass}@${Config.mongoHost}/myprojectdb?retryWrites=true&w=majority`
 
 app.use(express.json());
-//app.use('/api', router);
+app.use('/', indexRouter);
+app.use('/places', placesRouter);
+app.use('/categories', categoriesRouter);
 
-mongodb_atlas_connect().then(() => console.log('Connected to MongoDB Atlas'))
+
+mongodb_atlas_connect()
+.then(() => console.log('Connected to MongoDB Atlas'))
 .catch((err) => console.log('Error connecting to MongoDB Atlas', err));
 
 app.listen(PORT, () => {
